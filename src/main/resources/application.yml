@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-wispy-violet-53823986.us-east-2.aws.neon.fl0.io:5432/db-test
+    username: fl0user
+    password: COZL8ANhrT4G
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+hibernate:
+  show_sql: true
+  format_sql: true
