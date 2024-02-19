@@ -9,9 +9,11 @@ public interface AddressRepository {
 
     public Address getById(UUID id);
 
-    public List<Address> getAll(UUID id);
+    public List<Address> getAll();
 
     public void create(Address address);
 
     public void delete(UUID id);
+
+    public boolean exist(UUID id);
 }
