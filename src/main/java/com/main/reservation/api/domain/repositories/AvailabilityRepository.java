@@ -8,9 +8,11 @@ import java.util.UUID;
 public interface AvailabilityRepository {
     public Availability getById(UUID id);
 
-    public List<Availability> getAll(UUID id);
+    public List<Availability> getAll();
 
     public void create(Availability availability);
 
     public void delete(UUID id);
+
+    public boolean exist(UUID id);
 }

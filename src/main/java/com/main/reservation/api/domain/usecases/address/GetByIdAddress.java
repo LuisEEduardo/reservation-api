@@ -1,4 +1,4 @@
-package com.main.reservation.api.domain.usecases.Address;
+package com.main.reservation.api.domain.usecases.address;
 
 import com.main.reservation.api.domain.entities.Address;
 import com.main.reservation.api.domain.repositories.AddressRepository;
