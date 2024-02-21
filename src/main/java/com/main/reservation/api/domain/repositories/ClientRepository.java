@@ -9,9 +9,11 @@ public interface ClientRepository {
 
     public Client getById(UUID id);
 
-    public List<Client> getAll(UUID id);
+    public List<Client> getAll();
 
-    public void create(Client client);
+    public void save(Client client);
 
     public void delete(UUID id);
+
+    public boolean exist(UUID id);
 }

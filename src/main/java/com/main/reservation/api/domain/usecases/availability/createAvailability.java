@@ -11,6 +11,6 @@ public class createAvailability {
     }
 
     public void handle(Availability availability) {
-        repository.create(availability);
+        repository.save(availability);
     }
 }

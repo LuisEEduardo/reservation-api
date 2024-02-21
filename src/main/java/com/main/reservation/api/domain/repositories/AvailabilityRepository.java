@@ -10,7 +10,7 @@ public interface AvailabilityRepository {
 
     public List<Availability> getAll();
 
-    public void create(Availability availability);
+    public void save(Availability availability);
 
     public void delete(UUID id);
 

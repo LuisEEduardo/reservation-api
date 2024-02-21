@@ -8,9 +8,9 @@ import java.util.UUID;
 public interface ReservationRepository {
     public Reservation getById(UUID id);
 
-    public List<Reservation> getAll(UUID id);
+    public List<Reservation> getAll();
 
-    public void create(Reservation reservation);
+    public void save(Reservation reservation);
 
     public void delete(UUID id);
 }

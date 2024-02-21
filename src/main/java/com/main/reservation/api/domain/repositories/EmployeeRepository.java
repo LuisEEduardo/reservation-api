@@ -8,9 +8,9 @@ import java.util.UUID;
 public interface EmployeeRepository {
     public Employee getById(UUID id);
 
-    public List<Employee> getAll(UUID id);
+    public List<Employee> getAll();
 
-    public void create(Employee employee);
+    public void save(Employee employee);
 
     public void delete(UUID id);
 }

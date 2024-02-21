@@ -11,7 +11,7 @@ public class CreateAddress {
     }
 
     public void handle(Address address) {
-        repository.create(address);
+        repository.save(address);
     }
 
 }

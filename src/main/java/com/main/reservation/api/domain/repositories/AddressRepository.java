@@ -11,7 +11,7 @@ public interface AddressRepository {
 
     public List<Address> getAll();
 
-    public void create(Address address);
+    public void save(Address address);
 
     public void delete(UUID id);
 

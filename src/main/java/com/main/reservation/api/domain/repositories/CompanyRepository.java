@@ -8,9 +8,9 @@ import java.util.UUID;
 public interface CompanyRepository {
     public Company getById(UUID id);
 
-    public List<Company> getAll(UUID id);
+    public List<Company> getAll();
 
-    public void create(Company company);
+    public void save(Company company);
 
     public void delete(UUID id);
 }
