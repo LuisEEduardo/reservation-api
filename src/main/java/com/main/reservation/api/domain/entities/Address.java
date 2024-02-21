@@ -13,7 +13,22 @@ public class Address extends Entity {
     public String description;
     public String linkGoogleMaps;
 
-    public Address(String street, String state, String country, String postalCode, String number, String complement, String description, String linkGoogleMaps) {
+    public Address(String street, String state, String country,
+                   String postalCode, String number, String complement,
+                   String description, String linkGoogleMaps) {
+        this.street = street;
+        this.state = state;
+        this.country = country;
+        this.postalCode = postalCode;
+        this.number = number;
+        this.complement = complement;
+        this.description = description;
+        this.linkGoogleMaps = linkGoogleMaps;
+    }
+
+    public void edit(String street, String state, String country,
+                     String postalCode, String number, String complement,
+                     String description, String linkGoogleMaps) {
         this.street = street;
         this.state = state;
         this.country = country;

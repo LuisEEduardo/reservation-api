@@ -15,6 +15,12 @@ public class Availability extends Entity {
         this.endHour = endHour;
     }
 
+    public void edit(String daysAvailable, Date startHour, Date endHour) {
+        this.daysAvailable = daysAvailable;
+        this.startHour = startHour;
+        this.endHour = endHour;
+    }
+
     public String getDaysAvailable() {
         return daysAvailable;
     }

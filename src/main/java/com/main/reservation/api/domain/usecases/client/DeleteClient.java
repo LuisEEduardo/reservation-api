@@ -5,10 +5,10 @@ import com.main.reservation.api.domain.repositories.ClientRepository;
 
 import java.util.UUID;
 
-public class deleteClient {
+public class DeleteClient {
     final ClientRepository repository;
 
-    public deleteClient(ClientRepository repository) {
+    public DeleteClient(ClientRepository repository) {
         this.repository = repository;
     }
 

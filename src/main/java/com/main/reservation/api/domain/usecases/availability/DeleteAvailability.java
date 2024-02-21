@@ -5,10 +5,10 @@ import com.main.reservation.api.domain.repositories.AvailabilityRepository;
 
 import java.util.UUID;
 
-public class deleteAvailability {
+public class DeleteAvailability {
     final AvailabilityRepository repository;
 
-    public deleteAvailability(AvailabilityRepository repository) {
+    public DeleteAvailability(AvailabilityRepository repository) {
         this.repository = repository;
     }
 

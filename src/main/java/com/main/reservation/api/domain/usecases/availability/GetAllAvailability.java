@@ -5,10 +5,10 @@ import com.main.reservation.api.domain.repositories.AvailabilityRepository;
 
 import java.util.List;
 
-public class getAllAvailability {
+public class GetAllAvailability {
     final AvailabilityRepository repository;
 
-    public getAllAvailability(AvailabilityRepository repository) {
+    public GetAllAvailability(AvailabilityRepository repository) {
         this.repository = repository;
     }
 

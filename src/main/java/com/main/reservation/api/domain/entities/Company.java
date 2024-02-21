@@ -16,6 +16,13 @@ public class Company extends Entity {
         this.user = user;
     }
 
+    public void edit(String name, String bio, Address address, User user) {
+        this.name = name;
+        this.bio = bio;
+        this.address = address;
+        this.user = user;
+    }
+
     public String getName() {
         return name;
     }

@@ -5,10 +5,10 @@ import com.main.reservation.api.domain.repositories.ClientRepository;
 
 import java.util.UUID;
 
-public class getByIdClient {
+public class GetByIdClient {
     final ClientRepository repository;
 
-    public getByIdClient(ClientRepository repository) {
+    public GetByIdClient(ClientRepository repository) {
         this.repository = repository;
     }
 

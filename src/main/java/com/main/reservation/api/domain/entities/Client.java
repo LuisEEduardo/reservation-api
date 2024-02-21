@@ -11,6 +11,11 @@ public class Client extends Entity {
         this.user = user;
     }
 
+    public void edit(String phone, User user) {
+        this.phone = phone;
+        this.user = user;
+    }
+
     public String getPhone() {
         return phone;
     }

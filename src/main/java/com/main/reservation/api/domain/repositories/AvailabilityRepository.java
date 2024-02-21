@@ -3,10 +3,11 @@ package com.main.reservation.api.domain.repositories;
 import com.main.reservation.api.domain.entities.Availability;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 public interface AvailabilityRepository {
-    public Availability getById(UUID id);
+    public Optional<Availability> getById(UUID id);
 
     public List<Availability> getAll();
 
